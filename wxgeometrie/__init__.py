@@ -1,1 +1,2 @@
-from param.version import version as __version__
+__all__ = ['pylib', 'mathlib', 'geolib']
+from .param import version as __version__
