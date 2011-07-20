@@ -1,8 +1,8 @@
 # -*- coding: iso-8859-1 -*-
 from __future__ import division # 1/2 == .5 (par defaut, 1/2 == 0)
 
-from geolib.tests.geotestlib import *
-from geolib import (Intersection_droite_cercle, Intersection_cercles, Intersection_droite_cercle,
+from tools.testlib import assertAlmostEqual
+from wxgeometrie.geolib import (Intersection_droite_cercle, Intersection_cercles, Intersection_droite_cercle,
                                 Intersection_droites, Parallele
                                 )
 

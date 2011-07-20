@@ -1,11 +1,11 @@
 # -*- coding: iso-8859-1 -*-
 from __future__ import division # 1/2 == .5 (par defaut, 1/2 == 0)
 
-from geolib.tests.geotestlib import *
+from tools.testlib import assertAlmostEqual
 import sympy
 from sympy import sympify as symp
 
-from geolib import (Glisseur_arc_cercle, Glisseur_cercle, Glisseur_demidroite, Glisseur_droite,
+from wxgeometrie.geolib import (Glisseur_arc_cercle, Glisseur_cercle, Glisseur_demidroite, Glisseur_droite,
                                 Glisseur_segment, Point_equidistant, Centre, Centre_cercle_inscrit, Centre_cercle_circonscrit,
                                 Orthocentre, Projete_demidroite, Projete_segment, Projete_arc_cercle, Projete_cercle,
                                 Projete_droite, Centre_gravite, Label_point, Point_reflexion, Point_homothetie,

@@ -22,11 +22,10 @@ from __future__ import division # 1/2 == .5 (par defaut, 1/2 == 0)
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-# version unicode
-
 from random import uniform
 from math import sin, cos, pi, hypot, sqrt
 from cmath import phase, rect
+
 from numpy import arange, cos as ncos, sin as nsin
 
 from sympy import pi as PI
@@ -35,7 +34,7 @@ from .angles import Angle_vectoriel
 from .labels import Label_cercle, Label_arc_cercle
 from .lignes import Segment
 from .objet import Objet, Objet_avec_equation, Ref, Argument, issympy, contexte, \
-                   pi_, FILL_STYLES, TYPES_REELS
+                   pi_, FILL_STYLES, TYPES_REELS, G
 from .points import Point, Milieu, Centre, Point_generique, Point_equidistant, Glisseur_cercle
 from .routines import nice_display, angle_vectoriel, distance, formatage, trigshift, \
                       carre_distance_point_ellipse, vect

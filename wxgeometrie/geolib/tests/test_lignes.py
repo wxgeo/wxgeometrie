@@ -1,8 +1,8 @@
 # -*- coding: iso-8859-1 -*-
 from __future__ import division # 1/2 == .5 (par defaut, 1/2 == 0)
 
-from geolib.tests.geotestlib import *
-from geolib import (Tangente, Perpendiculaire, Parallele, Mediatrice, Droite_vectorielle,
+from tools.testlib import assertAlmostEqual
+from wxgeometrie.geolib import (Tangente, Perpendiculaire, Parallele, Mediatrice, Droite_vectorielle,
                                 Bissectrice, Label_droite, Label_demidroite, Label_segment,
                                 )
 

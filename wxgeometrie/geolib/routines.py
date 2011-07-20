@@ -341,7 +341,7 @@ def distance_segment(M, A, B, d):
 def formatage(eqn):
     u"""Améliore l'affichage des équations.
 
-    >>> from geolib.routines import formatage
+    >>> from wxgeometrie.geolib.routines import formatage
     >>> formatage('1 x + -1/3 y + 1 = 0')
     'x - 1/3 y + 1 = 0'
     >>> formatage('-1 x + -1 y + -1 = 0')

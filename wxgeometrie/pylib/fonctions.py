@@ -236,7 +236,7 @@ def regsub(regular_exp, main_string, action = ""):
     u"""Transforme la chaine "main_string" :
     Il applique aux parties vérifiant "regular_exp" le traitement "action".
 
-    >>> from geolib.fonctions import regsub
+    >>> from wxgeometrie.geolib.fonctions import regsub
     >>> regsub("[a-z]", "salut les amis !", "?")
     '????? ??? ???? !'
     >>> regsub("[a-z]+", "hello world !", lambda s: s[1:])

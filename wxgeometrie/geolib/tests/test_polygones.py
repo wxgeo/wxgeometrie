@@ -1,9 +1,9 @@
 # -*- coding: iso-8859-1 -*-
 from __future__ import division, absolute_import # 1/2 == .5 (par defaut, 1/2 == 0)
 
-from geolib.tests.geotestlib import *
+from tools.testlib import assertAlmostEqual
 
-from geolib import (Point, Polygone, Milieu, Label_polygone, Barycentre, Segment, Droite, Triangle,
+from wxgeometrie.geolib import (Point, Polygone, Milieu, Label_polygone, Barycentre, Segment, Droite, Triangle,
                                 Quadrilatere, Pentagone, Hexagone, Heptagone, Octogone, Segment, Parallelogramme,
                                 Triangle_isocele, Triangle_equilateral, Rectangle, Carre, Polygone_regulier, Carre_centre,
                                 Triangle_equilateral_centre, Polygone_regulier_centre, Losange,

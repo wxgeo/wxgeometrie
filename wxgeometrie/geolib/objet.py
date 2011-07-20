@@ -110,7 +110,7 @@ class Nom(object):
     Affiche le nom de l'objet quand on le met sous forme dAe chaîne.
 
     Exemple :
-    >>> from geolib import Nom, Feuille, Point
+    >>> from wxgeometrie.geolib import Nom, Feuille, Point
     >>> M = Feuille().objets.M = Point(1, 2)
     >>> nom = Nom(M)
     >>> nom
@@ -1030,7 +1030,7 @@ class Objet(object):
         Article peut être 'un', 'le', ou 'du', l'accord se faisant automatiquement.
         Le formatage est respecté (essayez 'un', 'UN', 'Un').
 
-        >>> from geolib.vecteurs import Vecteur_libre
+        >>> from wxgeometrie.geolib.vecteurs import Vecteur_libre
         >>> u = Vecteur_libre()
         >>> print u.titre()
         un vecteur libre.
@@ -1841,6 +1841,9 @@ class Objet_avec_valeur(Objet):
     _style_defaut = {} # en cas d'héritage multiple, cela évite que le style de Objet efface d'autres styles
 
     def _get_valeur(self):
+        raise NotImplementedError
+
+    def _set_valeur(self):
         raise NotImplementedError
 
 ##    def _get_valeur_approchee(self):

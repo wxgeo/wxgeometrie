@@ -280,7 +280,7 @@ class Variable(Variable_generique):
 class Rayon(Variable_generique):
     u"""Le rayon d'un cercle.
 
-    >>> from geolib import Cercle, Rayon
+    >>> from wxgeometrie.geolib import Cercle, Rayon
     >>> c = Cercle((0, 0), 1)
     >>> c.rayon
     1

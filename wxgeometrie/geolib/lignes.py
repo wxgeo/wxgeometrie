@@ -660,7 +660,7 @@ class Mediatrice(Perpendiculaire):
 
     La médiatrice d'un segment (ou d'un bipoint, ...)
 
-    >>> from geolib import Point, Mediatrice, Segment
+    >>> from wxgeometrie.geolib import Point, Mediatrice, Segment
     >>> A=Point(1,2); B=Point(3,4)
     >>> s=Segment(A,B)
     >>> Mediatrice(A, B) == Mediatrice(s)
