@@ -9,7 +9,6 @@ from sympy.logic.boolalg import Boolean
 
 import re
 
-print type(AtomicExpr), type(Boolean)
 class Symbol(AtomicExpr, Boolean):
     """
     Assumptions::

@@ -67,6 +67,5 @@ for _obj in vars().values():
 del _obj
 
 G.__dict__.update(locals())
-print G.Variable_generique
 vecteur_unite = G.vecteur_unite = Vecteur_libre(1, 0)
 feuille_par_defaut = G.feuille_par_defaut = Feuille()
