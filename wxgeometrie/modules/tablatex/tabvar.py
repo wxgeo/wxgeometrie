@@ -28,8 +28,8 @@ import re
 
 from sympy import sympify, oo, nan, limit, Symbol
 
-from .tablatexlib import convertir_en_latex, test_parentheses
-from ...mathlib.custom_functions import ensemble_definition, custom_str, resoudre
+from .tablatexlib import convertir_en_latex, test_parentheses, resoudre
+from ...mathlib.custom_functions import ensemble_definition, custom_str
 from ...mathlib.intervalles import R, conversion_chaine_ensemble
 from ...mathlib.interprete import Interprete
 from ... import param

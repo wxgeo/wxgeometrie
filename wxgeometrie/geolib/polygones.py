@@ -25,7 +25,7 @@ from __future__ import division # 1/2 == .5 (par defaut, 1/2 == 0)
 import re
 from random import uniform, normalvariate, randint
 from math import pi, cos, sin
-from math import log as clog, exp as cexp
+from cmath import log as clog, exp as cexp
 
 from sympy import arg as sarg, exp as sexp, I
 

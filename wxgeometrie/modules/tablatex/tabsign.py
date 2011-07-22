@@ -28,9 +28,9 @@ import re
 from sympy import oo, nan, Symbol
 
 from .tablatexlib import convertir_en_latex, traduire_latex, test_parentheses,\
-                         maths, extraire_facteurs
+                         maths, extraire_facteurs, resoudre
 from ...mathlib.intervalles import R, conversion_chaine_ensemble
-from ...mathlib.custom_functions import ensemble_definition, custom_str, resoudre
+from ...mathlib.custom_functions import ensemble_definition, custom_str
 from ...mathlib.interprete import Interprete
 from ... import param
 
