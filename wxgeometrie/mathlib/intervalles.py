@@ -148,11 +148,7 @@ class Union(Ensemble):
         self.intervalles = [intervalle for intervalle in ints if intervalle is not None]
 
     def __str__(self):
-        try:
-            import mathlib.custom_functions
-            str = mathlib.custom_functions.custom_str
-        except ImportError:
-            str = lambda x: str(x) if x != 'oo' else '+oo'
+        from .custom_functions import custom_str as str
         return "U".join(str(intervalle) for intervalle in self.intervalles).replace("}U{", " ; ")
 
     def __repr__(self):
@@ -362,11 +358,7 @@ class Intervalle(Union):
 
 
     def __str__(self):
-        try:
-            import mathlib.custom_functions
-            str = mathlib.custom_functions.custom_str
-        except ImportError:
-            str = lambda x: str(x) if x != 'oo' else '+oo'
+        from .custom_functions import custom_str as str
         if self.vide:
             return "{}"
         elif self.inf == self.sup:

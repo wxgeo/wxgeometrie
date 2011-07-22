@@ -5,7 +5,7 @@ from pytest import XFAIL
 
 from tools.testlib import assertRaises, assertAlmostEqual
 
-from wxgeometrie.mathlib.custom_objects import Interprete
+from wxgeometrie.mathlib.interprete import Interprete
 
 VERBOSE = False
 

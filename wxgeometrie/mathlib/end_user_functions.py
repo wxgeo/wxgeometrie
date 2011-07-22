@@ -41,8 +41,9 @@ __classement__ = OrderedDict((
 
 del OrderedDict
 
-from .universal_functions import acos, asin, atan, ceil, cos, cosh, exp, floor,\
-                                 ln, log, sin, sinh, sqrt, tan, tanh
+from .universal_functions import abs, acos, asin, atan, ceil, cos, cosh, exp, floor,\
+                                 ln, log, sin, sinh, sqrt, tan, tanh, arg
+
 
 from sympy import LambertW, gamma, Sum, Integral
 
