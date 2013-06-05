@@ -143,7 +143,7 @@ def asin(*args, **kw):
     elif isinstance(arg0, _sympy.Basic):
         return _sympy.asin(*args,**kw)
     else:
-        return _numpy.asin(*args,**kw)
+        return _numpy.arcsin(*args,**kw)
 
 
 def cos(*args, **kw):
@@ -179,7 +179,7 @@ def atan(*args, **kw):
     elif isinstance(arg0, _sympy.Basic):
         return _sympy.atan(*args,**kw)
     else:
-        return _numpy.atan(*args,**kw)
+        return _numpy.arctan(*args,**kw)
 
 
 def floor(*args, **kw):
@@ -263,7 +263,7 @@ def acos(*args, **kw):
     elif isinstance(arg0, _sympy.Basic):
         return _sympy.acos(*args,**kw)
     else:
-        return _numpy.acos(*args,**kw)
+        return _numpy.arccos(*args,**kw)
 
 
 def ceil(*args, **kw):
