@@ -3,6 +3,17 @@ WxGeometrie
 
 *Le couteau suisse du prof de maths. :-)*
 
+____________
+
+
+**Attention, WxGeometrie n'est plus maintenu.** 
+
+**Téléchargez plutôt son successeur, *Geophar* :**
+
+**<https://github.com/wxgeo/geophar>**
+
+__________
+
 <http://wxgeo.free.fr/>
 
 **License :** GNU Public License version 2 or higher
